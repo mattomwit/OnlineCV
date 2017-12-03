@@ -19,9 +19,21 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/bootstrapCreativeTemplate/bootstrap.css",
+        "../node_modules/bootstrapCreativeTemplate/magnific-popup.css",
+        "../node_modules/bootstrapCreativeTemplate/creative.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/tether/dist/js/tether.js", 
+        "../node_modules/popper.js/dist/umd/popper.js",
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/bootstrapCreativeTemplate/bootstrap.js",
+        "../node_modules/bootstrapCreativeTemplate/jquery.easing.js",
+        "../node_modules/bootstrapCreativeTemplate/scrollreveal.js",
+        "../node_modules/bootstrapCreativeTemplate/jquery.magnific-popup.js",
+        "../node_modules/bootstrapCreativeTemplate/creative.js"  
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

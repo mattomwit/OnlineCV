@@ -1,14 +1,511 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Client</title>
-  <base href="/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <base href="/"> <!--this is needed by angular -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <title>Mateusz Witkowski</title>
+
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    </style>
+
 </head>
-<body>
-  <app-root></app-root>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="mainNav">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">MATEUSZ WITKOWSKI</a>
+            <div class="collapse navbar-collapse" id="navbarExample">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#personal-statement">PERSONAL STATEMENT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills-tools">SKILLS & TOOLS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#my-projects">MY PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#additional-skills">ADDITIONAL SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#education">EDUCATION</a>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#external-links">EXTENRAL LINKS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT PAGE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="masthead">
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 class="sr-icons" id="homeHeading">WELCOME TO MY ONLINE CV</h1>
+                <hr>
+                <p class="sr-contact">Scroll down or click on navigation bar on top to see more!</p>
+                <a class="btn btn-primary btn-xl sr-button" href="#personal-statement">PERSONAL STATEMENT</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="personal-statement">
+        <div class="container">
+            <div class="row no-gutter align-items-center">
+                <div class="col-lg-4  popup-gallery sr-button">
+                    <a class="portfolio-box rounded-circle" href="/assets/img/Mat.jpg">
+                        <img class="img-fluid rounded-circle w-75" src="/assets/img/Mat.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-heading text-white sr-button">WHO AM I?</h2>
+                    <hr class="light">
+                    <p class="text-faded sr-button">Motivated, adaptable and responsible Masters Graduate in Electrical Engineering who also has a passion for Information Technology. I am a self-taught programmer skilled in using C# and JavaScript currently seeking to progress career as an entry level programmer.</p>
+                    <a class="btn btn-default btn-xl sr-button" href="#skills-tools">SKILLS & TOOLS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills-tools">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading sr-button">SKILLS AND TOOLS</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="rounded w-50 sr-button" src="/assets/img/icons/js.jpg" alt="javascript">
+                        <h3>JavaScript</h3>
+                        <p class="text-muted sr-button">I use it in Node.js, Angular5 and browser to bring websites to life.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                            <img class="rounded w-50 sr-button" src="/assets/img/icons/Csharp.jpg" alt="C#">
+                        <h3>C#</h3>
+                        <p class="text-muted sr-button">Most bigger projects that I tried were programmed in C#. I learned OOP, lists, events, delegates and more advanced algorythms using this language. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="rounded w-50 sr-button" src="/assets/img/icons/HTML_5.jpg" alt="HTML">
+                        <h3>HTML</h3>
+                        <p class="text-muted sr-button">Cannot create websites without it.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="rounded w-50 sr-button" src="/assets/img/icons/css3.jpg" alt="CSS">
+                        <h3>CSS</h3>
+                        <p class="text-muted sr-button">I like to adjust already created projects to my liking. This site was altered from initial template as well.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="rounded w-50 sr-button" src="/assets/img/icons/node.jpg" alt="Node JS">
+                        <h3>Node JS</h3>
+                        <p class="text-muted sr-button">I use it to host my websites. Recently I started to use it for game developement.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="rounded w-50 sr-button" src="/assets/img/icons/ang5.jpg" alt="angular5">
+                        <h3>Angular 5</h3>
+                        <p class="text-muted sr-button">Currently Learning. I have few simple projects that I am currently working on.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="rounded w-50 sr-button" src="/assets/img/icons/mongodb.jpg" alt="mongodb">
+                        <h3>MongoDB</h3>
+                        <p class="text-muted sr-button">I am working with noSQL database to persist data for my projects.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="rounded w-50 sr-button" src="/assets/img/icons/soueTree.jpg" alt="Version control">
+                        <h3>Version control</h3>
+                        <p class="text-muted sr-button">Important to keep everything working just in case I screw up. I used Git Hub, GitLab and currently am using BitBucket. I prefer to work with SourceTree to have a visual representation of my repositories.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="rounded w-50 sr-button" src="/assets/img/icons/visual-studio.jpg" alt="Visual Studio">
+                        <h3>Visual Studio</h3>
+                        <p class="text-muted sr-button">Very good program when programming with C#. My main usage during game cration in Unity 3D. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="rounded w-50 sr-button" src="/assets/img/icons/visual-studio-code.jpg" alt="Visual Studio Code">
+                        <h3>Visual Studio Code</h3>
+                        <p class="text-muted sr-button">Really good for web developement. I use it to program my web solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="my-projects">
+        <div class="container text-center">
+            <h2 class="section-heading sr-button">MY PROJECTS</h2>
+            <hr class="primary">
+        </div>
+
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-6 col-sm-6">
+                    <a class="portfolio-box sr-button" target="_blank" href="https://nt-server.herokuapp.com/">
+                        <img class="img-fluid" src="/assets/img/portfolio/thumbnails/homePage.jpg" alt="homePage">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    MY FIRST HOSTED WEBPAGE
+                                </div>
+                                <div class="project-category text-faded">
+                                    Attempt to create my portfolio website. Created with bootstrap and little bit of css animation. 
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <a class="portfolio-box sr-button" target="_blank" href="https://powerful-depths-94544.herokuapp.com/">
+                        <img class="img-fluid" src="/assets/img/portfolio/thumbnails/czatIO.jpg" alt="czatIO">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    CZAT IO
+                                </div>
+                                <div class="project-category text-faded">
+                                    Web chat using sockets.io. Created using node.js and bootstrap. 
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <a class="portfolio-box sr-button" target="_blank" href="https://nt-server.herokuapp.com/tributepage/">
+                        <img class="img-fluid" src="/assets/img/portfolio/thumbnails/tribute.jpg" alt="tribute">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    TRIBUTE PAGE                                        
+                                </div>
+                                <div class="project-category text-faded">
+                                    Very simple project created during www.freecodecamp.org using bootstrap. Purpose of that project was to crate a tribute page to someone. I decided to make a tribute to everyone who tries to learn programming.
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <a class="portfolio-box sr-button" target="_blank" href="https://nt-server.herokuapp.com/weather/">
+                        <img class="img-fluid" src="/assets/img/portfolio/thumbnails/weather.jpg" alt="weather">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    WEATHER 
+                                </div>
+                                <div class="project-category text-faded ">
+                                    Project created during www.freecodecamp.org using bootstrap, plain javascript and jQuery. This website shows weather based on IP adress of user. It also allows to specify where location of weather check as well as changing type of temperature scale. Depending on weather it changes background of the page.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark" id="additional-skills">
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading sr-button">ADDITIONAL SKILLS</h2>
+                        <hr class="primary">
+                    </div>
+                </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                            <img class="rounded w-75 sr-button" src="/assets/img/icons/oop.jpg" alt="oop">
+                            <h3>OBJECT ORIENTET PROGRAMMING</h3>
+                        <p class="text-muted sr-button">Experience in Object-orientated Programming. Used mainly in C# Unity 3D game projects.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="rounded-circle w-75 sr-button" src="/assets/img/icons/debugging.jpg" alt="debug">
+                        <h3>DEBUGGING CODE</h3>
+                        <p class="text-muted sr-button">Experience in debugging code. C#, websites and node.js projects.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="rounded w-50 sr-button" src="/assets/img/icons/code-loop.jpg" alt="rev">
+                        <h3>CODE REVISION</h3>
+                        <p class="text-muted sr-button">Cleaning and rewriting code is essential to make projects easy to read and understand even for other people. Making comments also helps when getting back to old projects.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="rounded w-50 sr-button" src="/assets/img/icons/code-think.jpg" alt="codan">
+                        <h3>CODE ANALYSIS</h3>
+                        <p class="text-muted sr-button">I am able to learn new concepts and technology. When programming my own projects I often have to go throug other peoples code in order to solve problems that have arisen.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="rounded w-25 sr-button" src="/assets/img/icons/unity.jpg" alt="unity 3D">
+                        <h3>UNITY 3D</h3>
+                        <p class="text-muted sr-button">My hobby. I use Unity 3D to create games or learn and visualize programming algorythms that I am learning. For example pathfinding.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="rounded w-75 sr-button" src="/assets/img/icons/office.jpg" alt="MSoffice">
+                        <h3>MICROSOFT OFFICE</h3>
+                        <p class="text-muted sr-button">I often use Microsoft products. I have lots of experience with Excell and Word. I used them extensively during university to depict data or write science reports.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="rounded w-25 sr-button" src="/assets/img/icons/gimp.jpg" alt="gimp">
+                        <h3>GRAPHICAL EDITING</h3>
+                        <p class="text-muted sr-button">I often use graphical editing software like GIMP or KRITA for my games or web projects.</p>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>  
+        </section>
+        
+        <section class="no-padding" id="education">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="section-heading sr-button">EDUCATION</h2>
+                            <hr class="primary">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 text-center">
+                            <a class=" " target="_blank" href="https://www.freecodecamp.org/mattomwit">
+                                <img class="img-fluid rounded w-25 sr-button" src="/assets/img/icons/freecodecamp.jpg" alt="freeCodeCamp">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 text-center">
+                            <p class="sr-button">2017 – currently</p>                        
+                        </div>
+                        <div class="col-lg-4 text-center">
+                                <p class="sr-button">Full Stack Web Development Certification</p>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                                <p class="sr-button">freeCodeCamp, San Francisco, ca</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 text-center">
+                            <a class=" " target="_blank" href="http://pwr.edu.pl/en/">
+                                <img class="img-fluid rounded w-25 sr-button" src="/assets/img/icons/pwr2.jpg" alt="PWR">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 text-center">
+                            <p class="sr-button">2013 – 2014</p>                        
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <p class="sr-button">Master Degree in “Industrial Electrical Engineering”</p>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                                <p class="sr-button"> Wrocław University of Technology, Wrocław, Poland</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 text-center">
+                            <a class=" " target="_blank" href="http://pwr.edu.pl/en/">
+                                <img class="img-fluid rounded w-25 sr-button" src="/assets/img/icons/pwr2.jpg" alt="PWR">
+                            </a>
+                        </div>
+                        <div class="col-lg-2 text-center">
+                            <p class="sr-button">2008 – 2013</p>                        
+                        </div>
+                        <div class="col-lg-4 text-center">
+                                <p class="sr-button"> Bachelor Degree in “Electrical Engineering”</p>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                                <p class="sr-button">  Wrocław University of Technology, Wrocław, Poland</p>
+                        </div>
+                    </div>
+            </section>
+
+        <section id="external-links">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="section-heading sr-button">EXTERNAL LINKS</h2>
+                            <hr class="primary">
+                        </div>
+                    </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center sr-button">
+                        <div class="service-box sr-button">
+                                <a class=" " target="_blank" href="https://www.linkedin.com/in/mateusz-witkowski-a14678110/">
+                                    <img class="img-fluid rounded w-25" src="/assets/img/icons/linkedin.jpg" alt="linkedin">
+                                </a>
+                            <h3>LinkedIn</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center sr-button">
+                        <div class="service-box sr-button">
+                                <a class=" " target="_blank" href="https://github.com/mattomwit">
+                                    <img class="img-fluid rounded w-25" src="/assets/img/icons/github_logo.jpg" alt="github">
+                                </a>
+                            <h3>GitHub</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center sr-button">
+                        <div class="service-box sr-button">
+                                <a class=" " target="_blank" href="https://www.freecodecamp.org/mattomwit">
+                                    <img class="img-fluid rounded w-25" src="/assets/img/icons/freecodecamp.jpg" alt="linkedin">
+                                </a>
+                            <h3>freeCodeCamp</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center sr-button">
+                        <div class="service-box sr-button">
+                                <a class=" " target="_blank" href="https://codepen.io/NamelessTactician/#">
+                                    <img class="img-fluid rounded w-25" src="/assets/img/icons/codepen.png" alt="codepen">
+                                </a>
+                            <h3>CodePen</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="bg-primary" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading sr-button">ABOUT THIS PAGE</h2>
+                        <hr class="primary">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 text-center sr-button">
+                        <a class="portfolio-box" target="_blank" href="https://v4-alpha.getbootstrap.com/">
+                            <img class="img-fluid rounded w-25" src="/assets/img/icons/bootstrap.png" alt="bootstrap">
+                        </a>
+                    </div>
+                    <div class="col-lg-9 text-center sr-button">
+                        <p>This website was created using bootstrap 4.</p>
+                    </div>
+                    <div class="col-lg-3 text-center sr-button">
+                        <a class="portfolio-box " target="_blank" href="https://startbootstrap.com/template-overviews/creative/">
+                            <img class="img-fluid rounded w-25" src="/assets/img/icons/creative.jpg" alt="creativeTheme">
+                        </a>
+                    </div>
+                    <div class="col-lg-9 text-center sr-button">
+                        <p>I used bootstrap theme crative. Link to the theme is available in this section for comparison.</p>
+                    </div>
+                </div>
+                <div class="row">
+                   
+                    <div class="col-lg-3 text-center sr-button">
+                        <a class="portfolio-box " target="_blank" href="#skills-tools">
+                            <img class="img-fluid rounded w-25" src="/assets/img/icons/css3.jpg" alt="css">
+                        </a>
+                    </div>
+                    <div class="col-lg-9 text-center sr-button">         
+                        <p>I used CSS to change style of this template and add more animations.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 text-center sr-button">
+                        <a class="portfolio-box " target="_blank" href="https://angular.io/">
+                            <img class="img-fluid rounded w-25" src="/assets/img/icons/ang5.jpg" alt="angular">
+                        </a>
+                    </div>
+                    <div class="col-lg-9 text-center sr-button">
+                        <p>Template was imported to my Angular 4 project and later updated to Angualr 5. </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 text-center sr-button">
+                        <a class="portfolio-box " target="_blank" href="https://nodejs.org">
+                            <img class="img-fluid rounded w-25" src="/assets/img/icons/node.jpg" alt="heroku">
+                        </a>
+                    </div>
+                    <div class="col-lg-9 text-center sr-button">
+                        <p>To host this project I am using node.js with express. </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 text-center sr-button">
+                        <a class="portfolio-box " target="_blank" href="https://www.heroku.com/">
+                            <img class="img-fluid rounded w-25" src="/assets/img/icons/heroku.png" alt="heroku">
+                        </a>
+                    </div>
+                    <div class="col-lg-9 text-center sr-button">
+                        <p>For hosting I am using Heroku.com</p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <app-root>Loading...</app-root>
+ 
 </body>
+
 </html>
