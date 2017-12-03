@@ -1,0 +1,25 @@
+{
+  "name": "online_cv",
+  "version": "1.0.0",
+  "description": "Online CV project. Server build with node.js and express. Frontend built with angular 5 and bootstrap.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattomwit/OnlineCV.git"
+  },
+  "author": "Mateusz Witkowski",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-promise-router": "^2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/mattomwit/OnlineCV/issues"
+  },
+  "homepage": "https://github.com/mattomwit/OnlineCV#readme"
+}
