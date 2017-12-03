@@ -8,6 +8,8 @@ notes/
 
 client/tmp
 
+#when project is ready to be hosted
+client/src
 # dependencies
 client/node_modules
 
